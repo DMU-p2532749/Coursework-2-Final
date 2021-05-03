@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport:" content="width=device-width, inital-scale=1.0" />
+  <link rel="stylesheet" href="CSS\CSS.css">
+  <script type="text/javascript" src= "Java.js"></script>
+    <title>Website</title>
+</head>
+<body>
+<!--Banner-->
+  <div class="Banner">
+    <img src="Image\Banner.png" alt="Banner">
+  </div>
+<!--Banner END-->
+<!--Title-->
+  <div class="Title">
+    <h1>Store</h1>
+  </div>
+<!--Title End-->
+<!--Navigation Bar-->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="Home.html">Home</a>
+    <a href="Store.html">Store</a>
+    <a href="Contact.html">Contact</a>
+    <a href="About.html">About</a>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+<!--Navigation Bar END-->
+<br>
+<!--Slideshows-->
+  <!--Bape Hoodie Slideshow-->
+  <div class="Hoodies">
+    <!--Bape Slideshow Images-->
+    <div id="wrapper">
+      <div class="slideshow w3-container w3-half">
+        <div class="w3-content w3-display-container">
+          <img class="mySlides fade" src="Image\BapeFlameFront.png">
+            <img class="mySlides fade" src="Image\BapeFlameBack.png">
+            <a class="prev" onclick="plusDivs(-1, 0)">&#10094;</a>
+            <a class="next" onclick="plusDivs(1, 0)">&#10095;</a>
+            <!-- Extra plusDivs parameter refers to first (0) slideshow (start from 0) -->
+        </div>
+<br>
+        <div style="text-align:center">
+             <span class="dot" onclick="currentDiv(1, 0)"></span>
+             <span class="dot" onclick="currentDiv(2, 0)"></span>
+        </div>
+       </div>
+    </div>
+  </div>
+    <!--Bape Slideshow Images END-->
+    <!--Bape Slideshow Text-->
+    <div class="info">
+      <h1>Bape Flame (Blue)</h1>
+      <p>This is the ‘BAPE Flame Wide Full Zip Hoodie (Blue)’, it was released on the 1st February 2020 in their ready for Spring/Summer collection. They sold out instantly and on every re-stock BAPE have done for the hoodies have also sold out instantly. </p>
+      <h3>Sites Lowest Selling Price: £485</h3>
+      <h3>Colour: Blue</h3>
+      <h3>Size: S</h3>
+    </div>
+    <!--Bape Slideshow Text END-->
+  <!--Bape Hoodie Slideshow-->
+  <!--OFFWHITE Hoddie Slideshow-->
+  <div class="Hoodies">
+    <!--OFFWHITE Slideshow Images-->
+    <div id="wrapper">
+     <div class="slideshow w3-container w3-half">
+        <div class="w3-content w3-display-container">
+          <img class="mySlides fade" src="Image\offwhitefront.png">
+          <img class="mySlides fade" src="Image\OffWhiteback.png">
+          <a class="prev" onclick="plusDivs(-1, 1)">&#10094;</a>
+          <a class="next" onclick="plusDivs(1, 1)">&#10095;</a>
+          <!-- Extra plusDivs parameter refers to second (1) slideshow (start from 0) -->
+        </div>
+<br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentDiv(1, 1)"></span>
+          <span class="dot" onclick="currentDiv(2, 1)"></span>
+        </div>
+    </div>
+   </div>
+  </div>
+  <!--OFFWHITE Slideshow Images END-->
+  <!--OFFWHITE Slideshow Text-->
+  <div class="info">
+    <h1>OFF-WHITE Dripping Arrows Incompiuto</h1>
+    <p>The hoodie shown above is called the 'OFF-WHITE Dripping Arrows Incompiuto Hoodie White/Multicolor' and is a long sleaved hoodie with graphic prints on the front and back aswell as the sleeves. They were roughly released around 14th Dec 2019 (roughly as it depended on which continant you were located).</p>
+    <h3>Sites Lowest Selling Price: £551</h3>
+    <h3>Colour: White/Multicolor</h3>
+    <h3>Size: M</h3>
+  </div>
+  <!--OFFWHITE Slideshow Images END-->
+  <!--OFFWHITE Hoddie Slideshow END-->
+  <!--Supreme Jersey Slideshow-->
+  <div class="Hoodies">
+    <!--Supreme Slideshow Images-->
+    <div id="wrapper">
+      <div class="slideshow w3-container w3-half">
+        <div class="w3-content w3-display-container">
+          <img class="mySlides fade" src="Image\SupremeFront.png">
+          <img class="mySlides fade" src="Image\SupremeBack.png">
+          <a class="prev" onclick="plusDivs(-1, 2)">&#10094;</a>
+         <a class="next" onclick="plusDivs(1, 2)">&#10095;</a>
+         <!-- Extra plusDivs parameter refers to second (1) slideshow (start from 0) -->
+        </div>
+<br>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentDiv(1, 2)"></span>
+        <span class="dot" onclick="currentDiv(2, 2)"></span>
+      </div>
+    </div>
+   </div>
+  </div>
+  <!--Supreme Slideshow Images END-->
+  <!--Supreme Slideshow Text-->
+  <div class="info">
+    <h1>Supreme Fox Racing Moto Jersey</h1>
+    <p>This jersy was originally released in May 2018 as a part of the brands Spring/Summer 2018 collaboration with Motocross. It's a thick heavyweight jersy, allowing it to be used as an actual racing top; its colour way consists of, blue, neon green, white, black and the classic red branding fro supreme.</p>
+    <h3>Sites Lowest Selling Price: £476</h3>
+    <h3>Colour: Multicolor</h3>
+    <h3>Size: M</h3>
+  </div>
+  <!--Supreme Slideshow Text END-->
+<!--Back To Top Button-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!--Back To Top Button END-->
+</body>
+<script src="Java.js" charset="utf-8"></script>
+</html>
